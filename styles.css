@@ -1,0 +1,74 @@
+html {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+section {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+#first-section,
+#second-section,
+#third-section,
+#fourth-section {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#first-section {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#second-section {
+    
+}
+
+#third-section {
+    background-color: #e5e7eb;
+}
+
+#fourth-section {
+    
+}
+
+.main-header,
+.logo {
+    color: #f9faf8;
+}
+
+.main-header {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#information-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937
+}
+
+#quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.signup-button,
+#signup-box {
+    background-color: #3882f6;
+}
