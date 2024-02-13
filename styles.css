@@ -3,9 +3,9 @@ html {
     font-size: 18px;
 }
 
-section {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     display: flex;
@@ -34,16 +34,34 @@ body {
     gap: 15px;
 }
 
+#body-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: center; 
+}
+
 #second-section {
-    
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #third-section {
+    padding: 80px;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #fourth-section {
-    
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-header,
@@ -54,16 +72,49 @@ body {
 .main-header {
     font-size: 48px;
     font-weight: 700;
+    margin: 0px;
 }
 
 #information-header {
+    margin-top: -20px;
+    margin-bottom: 50px;
     font-size: 36px;
     font-weight: 700;
     color: #1F2937
 }
 
+#signup-box {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 100px;
+    width: 1000px;
+    border-radius:5px;
+}
+
+#information-section {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+#information-section div{
+    width: 120px;
+    font-size: 13px;
+}
+
+#information-section img {
+    height: auto;
+    width: 120px;
+    border-radius:5px;
+}
+
 #quote {
-    font-size: 36px;
+    font-size: 24px;
+    font-weight: 100px;
+    margin-bottom: 0px;
+    width: 550px;
     color: #1f2937;
     font-style: italic;
 }
@@ -71,4 +122,15 @@ body {
 .signup-button,
 #signup-box {
     background-color: #3882f6;
+}
+
+.signup-button {
+    display: flex;
+    border-radius:5px;
+    height: 40px;
+    width: 128px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }
